@@ -1278,14 +1278,20 @@ footer {
   width: 50%;
 }
 
+.nav-button {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   main {
     padding: 0;
   }
   .nav-button {
+    cursor: pointer;
     color: #717177;
     font-size: 26px;
     margin: 20px;
+    display: block;
   }
   .background-title {
     color: rgba(241, 241, 247, 0.4);
