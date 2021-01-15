@@ -1122,6 +1122,18 @@ footer {
     padding: 0;
   }
 
+  .nav-button {
+    color: #717177;
+    font-size: 26px;
+    margin: 20px;
+  }
+
+  .background-title {
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 60px;
+    letter-spacing: 11px;
+  }
+
   .navigation-wrapper {
     position: absolute;
     height: 60px;
@@ -1152,8 +1164,9 @@ footer {
     max-width: 100%;
   }
   .social-button-section {
-    top: 308px;
+    bottom: 0;
     z-index: 10;
+    padding: 2px;
   }
   .top-title.on-banner {
     font-size: 40px;
@@ -1276,7 +1289,7 @@ footer {
   }
   .testimonial-text {
     width: 100%;
-    margin-left: 70px;
+    padding-left: 40px;
   }
   .title-desc {
     margin-left: 0;
